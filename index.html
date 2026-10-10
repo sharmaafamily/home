@@ -437,4 +437,197 @@
   </div>
 </section>
 <!-- END SHARMA FAMILY SECTION -->
+
+
+<footer class="sf-premium-footer" id="contact">
+  <div class="sf-footer-inner">
+
+    <div class="sf-footer-ornament">
+      <span></span>
+      <b>✦</b>
+      <span></span>
+    </div>
+
+    <a class="sf-footer-brand" href="#home">
+      SHARMA FAMILY
+    </a>
+
+    <p class="sf-footer-tagline">
+      Together through generations. United by love.
+    </p>
+
+    <div class="sf-footer-line"></div>
+
+    <p class="sf-mail-label">FOR FAMILY ENQUIRIES</p>
+
+    <a class="sf-mail-link" href="mailto:info@sharmaa.org">
+      <span class="sf-mail-icon">✉</span>
+      <span>
+        <small>MAIL US</small>
+        <strong>info@sharmaa.org</strong>
+      </span>
+      <span class="sf-mail-arrow">↗</span>
+    </a>
+
+    <div class="sf-footer-bottom">
+      <span>© <span id="sf-footer-year"></span>
+        Sharma Family</span>
+      <span>LOVE · UNITY · HERITAGE</span>
+    </div>
+
+  </div>
+</footer>
+
+<style>
+.sf-premium-footer {
+  background:
+    radial-gradient(ellipse at 50% 0%, #142943, transparent 60%),
+    #050f1e;
+  border-top: 1px solid rgba(216,173,96,.38);
+  padding: 52px 20px 20px;
+  color: #f9f5ec;
+  text-align: center;
+  font-family: 'Manrope', Arial, sans-serif;
+}
+
+.sf-footer-inner {
+  max-width: 780px;
+  margin: auto;
+}
+
+.sf-footer-ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 22px;
+  color: #e8c783;
+}
+
+.sf-footer-ornament span {
+  width: 70px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #d8ad60);
+}
+
+.sf-footer-ornament span:last-child {
+  transform: rotate(180deg);
+}
+
+.sf-footer-ornament b {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.sf-footer-brand {
+  color: #f2dba5;
+  font: 500 clamp(24px, 5vw, 34px) 'Cinzel', Georgia, serif;
+  letter-spacing: 3px;
+}
+
+.sf-footer-tagline {
+  color: #aebdd0;
+  font: italic 14px/1.8 Georgia, serif;
+  margin: 13px 0 25px;
+}
+
+.sf-footer-line {
+  height: 1px;
+  background: linear-gradient(
+    90deg, transparent, rgba(216,173,96,.5), transparent
+  );
+  margin: 0 auto 26px;
+}
+
+.sf-mail-label {
+  color: #d8ad60;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.sf-mail-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 20px;
+  text-align: left;
+  border: 1px solid rgba(216,173,96,.38);
+  border-radius: 10px;
+  background: rgba(255,255,255,.025);
+  transition: .25s ease;
+}
+
+.sf-mail-link:hover {
+  background: rgba(216,173,96,.09);
+  border-color: #e8c783;
+  transform: translateY(-2px);
+}
+
+.sf-mail-icon {
+  font-size: 25px;
+  color: #e8c783;
+}
+
+.sf-mail-link small {
+  display: block;
+  color: #aebdd0;
+  font-size: 9px;
+  letter-spacing: 2px;
+  margin-bottom: 3px;
+}
+
+.sf-mail-link strong {
+  color: #f2dba5;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.sf-mail-arrow {
+  color: #d8ad60;
+  font-size: 19px;
+  margin-left: 4px;
+}
+
+.sf-footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(216,173,96,.15);
+  color: #8f9daf;
+  font-size: 9px;
+  letter-spacing: 1.4px;
+}
+
+@media(max-width: 480px) {
+  .sf-premium-footer {
+    padding: 42px 15px 18px;
+  }
+
+  .sf-mail-link {
+    max-width: 100%;
+    gap: 10px;
+    padding: 13px;
+  }
+
+  .sf-mail-link strong {
+    font-size: 12px;
+  }
+
+  .sf-footer-bottom {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+</style>
+
+<script>
+document.getElementById('sf-footer-year').textContent =
+  new Date().getFullYear();
+</script>
+
           
